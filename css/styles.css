@@ -1,33 +1,27 @@
-body{
-  font-family: "Montserrat", sans-serif;
+body {
+  font-family: "Montserrat";
 }
-
-
 
 #title {
   background-color: #ff4c68;
   color: white;
 }
 
-#photo_logo {
-  transform: rotate(30deg);
-  transform-origin: bottom left;
-
-}
-
 h1 {
-  size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
 .containder-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 0 15%;
+}
+
+#photo_id {
   overflow: hidden;
 }
 
 /* Navigation Bar */
-
 #navbar {
   padding-bottom: 4.5rem;
 }
@@ -45,4 +39,47 @@ h1 {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat"
+}
+
+/* Download Buttons */
+#download_buttom {
+  margin: 5% 3% 5% 0
+}
+
+/* Title image */
+#photo_logo {
+  width: 50%;
+  transform: rotate(30deg);
+  transform-origin: bottom left;
+}
+
+/* Features */
+#features{
+  padding: 7% 15% 7% 15%
+}
+
+#icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+#icon:hover {
+  color: #ff4c68;
+}
+
+#features_box {
+  text-align: center;
+  padding: 5%
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+}
+
+.features_p {
+  color: #8f8f8f;
+  font-size: 0.9rem;
 }
