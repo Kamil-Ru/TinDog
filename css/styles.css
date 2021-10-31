@@ -66,7 +66,7 @@ p {
 }
 
 /* Title image */
-#photo_logo {
+#title_image {
   width: 50%;
   transform: rotate(30deg);
   transform-origin: bottom left;
@@ -118,4 +118,46 @@ p {
 .press_logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.h3_call_to-action {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer_icon {
+  margin: 20px 10px
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  #title_image {
+    position: static;
+    transform: rotate(0);
+  }
 }
