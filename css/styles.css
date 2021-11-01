@@ -12,18 +12,28 @@ p {
   font-size: 0.9rem;
 }
 
+/* Containers */
 .containder-fluid {
   padding: 7% 15%;
 }
 
+/* Section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Title Section */
 #title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
+  overflow: hidden;
 }
 
 #title .containder-fluid{
+  text-align: left;
   padding: 3% 15% 7%;
 }
 
@@ -34,17 +44,12 @@ p {
 
 /* Title image */
 #title_image {
-  width: 50%;
+  width: 60%;
   transform: rotate(30deg);
   transform-origin: bottom left;
 }
 
-#photo_id {
-  overflow: hidden;
-}
-
 /* Navigation Bar */
-
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
@@ -80,9 +85,7 @@ p {
 
 /* Testimonials Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff
 }
 
 .testimonial_image {
@@ -130,10 +133,6 @@ p {
 }
 
 /* Call to Action Section */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
 
 .big_head {
   font-size: 3.5rem;
@@ -141,9 +140,6 @@ p {
 }
 
 /* Footer Section */
-#footer {
-  background-color: #fff;
-}
 
 .footer_icon {
   margin: 20px 10px
